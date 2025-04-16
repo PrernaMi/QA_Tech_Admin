@@ -71,7 +71,6 @@ class _AdminHomePageState extends State<AdminHomePage> {
         ? qaDatabase[selectedTechnology!]![selectedLevel!]!
         : [];
 
-
     return Scaffold(
       appBar: AppBar(
         title: const Center(child: Text('Admin Home Page')),
